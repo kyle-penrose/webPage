@@ -1,0 +1,45 @@
+@keyframes anim_h1 {
+    from {color: red};
+    to {color: rgb(76, 255, 76)};
+}
+
+body {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    background-color: rgb(235, 255, 239);
+}
+
+h1 {
+    animation-name: anim_h1;
+    animation-duration: 20ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+#title {
+    font-size: 6em;
+}
+
+#image-column-left {  
+    float:left;
+}
+
+#image-column-right {
+    float:right;
+}
+
+.image-col {
+    margin-top: 0px;
+    width: 200px;
+    
+}
+
+.side-gif {
+    width: 200px;
+}
